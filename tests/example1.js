@@ -64,5 +64,5 @@ test("Login, Search for t-shirt, and Add to cart", async t => {
     await searchFor("t-shirt");
     await addFirstToCart();
     await t
-    .expect(productSummary).eql("2 Product");
+    .expect(productSummary).eql("1 Product");
 });
