@@ -26,7 +26,7 @@ upload_files() {
 netlify_deploy(){
   cp archives/*.html archives/index.html
   ls
-  netlify deploy --prod --auth $NETLIFY_AUTH_TOKEN
+  netlify deploy --prod --auth $NETLIFY_AUTH_TOKEN --dir archives
 }
 
 netlify_deploy
