@@ -24,8 +24,9 @@ upload_files() {
 # git remote add origin-pages https://${GH_TOKEN}@github.com/MVSE-outreach/resources.git > /dev/null 2>&1
 
 netlify_deploy(){
-  cp archives/*.html index.html
+  cp archives/*.html archives/index.html
   ls
+  netlify deploy --prod --auth $NETLIFY_AUTH_TOKEN
 }
 
 netlify_deploy
