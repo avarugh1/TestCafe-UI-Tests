@@ -25,6 +25,7 @@ upload_files() {
 
 netlify_deploy(){
   cp archives/*.html index.html
+  ls
 }
 
 netlify_deploy
