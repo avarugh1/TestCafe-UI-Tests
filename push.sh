@@ -17,8 +17,14 @@ upload_files() {
   git push origin reports
 }
 
-setup_git
-commit_website_files
-upload_files
+# setup_git
+# commit_website_files
+# upload_files
 
 # git remote add origin-pages https://${GH_TOKEN}@github.com/MVSE-outreach/resources.git > /dev/null 2>&1
+
+netlify_deploy(){
+  cp archives/*.html index.html
+}
+
+netlify_deploy

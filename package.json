@@ -4,6 +4,7 @@
   "description": "Simple demo for testcafe ci/cd integration",
   "main": "index.js",
   "dependencies": {
+    "netlify-cli": "^2.65.6",
     "testcafe": "^1.9.4",
     "testcafe-reporter-html": "^1.4.6"
   },
