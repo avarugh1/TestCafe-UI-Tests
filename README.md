@@ -1,5 +1,5 @@
 # Simple TestCafe pipeline 
-[![Build Status](https://travis-ci.org/avarugh1/testcafedemo.svg?branch=master)](https://travis-ci.org/avarugh1/testcafedemo)
+[![Build Status](https://travis-ci.org/avarugh1/TestCafe-UI-Tests.svg?branch=master)](https://travis-ci.org/avarugh1/TestCafe-UI-Tests)
 
 1. GitHub repo at https://github.com/avarugh1/testcafedemo
 2. Automated build pipeline setup with Travis CI on commit to repo. 
